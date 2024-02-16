@@ -6,7 +6,9 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/", routerh);
-// app.use(routerh);
+app.use("/dd", routerh);
+app.get("/", (req, res) => {
+  res.json("kkkkkkkkkkkkkkk");
+});
 
 app.listen(3000, () => console.log("Servidor Rodando"));
