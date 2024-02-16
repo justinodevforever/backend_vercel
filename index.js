@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use("/dd", routerh);
+// app.use("/dd", routerh);
 app.get("/", (req, res) => {
   res.json("kkkkkkkkkkkkkkk");
 });
