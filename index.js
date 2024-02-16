@@ -1,6 +1,6 @@
 import express from "express";
-import router from "./src/router/routas";
-import routerh from "./src/router/home";
+// import router from "./src/router/routas";
+// import routerh from "./src/router/home";
 
 const app = express();
 
